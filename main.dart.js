@@ -23972,14 +23972,6 @@ s=1
 break
 case 1:return A.q(q,r)}})
 return A.r($async$a4n,r)},
-a4s(){var s=0,r=A.t(t.H),q
-var $async$a4s=A.u(function(a,b){if(a===1)return A.p(b,r)
-while(true)switch(s){case 0:q=A.aBD()
-$.xS.bh().aT(0)
-s=2
-return A.j(q.js(0,"DB"),$async$a4s)
-case 2:return A.q(null,r)}})
-return A.r($async$a4s,r)},
 Jm(a){var s=0,r=A.t(t.H),q,p,o,n
 var $async$Jm=A.u(function(b,c){if(b===1)return A.p(c,r)
 while(true)switch(s){case 0:o=$.xS.bh().nF(0,"storePictures","readwrite")
@@ -24014,6 +24006,14 @@ s=1
 break
 case 1:return A.q(q,r)}})
 return A.r($async$Jl,r)},
+a4s(){var s=0,r=A.t(t.H),q
+var $async$a4s=A.u(function(a,b){if(a===1)return A.p(b,r)
+while(true)switch(s){case 0:q=A.aBD()
+$.xS.bh().aT(0)
+s=2
+return A.j(q.js(0,"DB"),$async$a4s)
+case 2:return A.q(null,r)}})
+return A.r($async$a4s,r)},
 a4r:function a4r(){},
 a4o:function a4o(){},
 a4p:function a4p(){},
@@ -79766,7 +79766,7 @@ s.a6(new A.ak1(s))},
 $S:30}
 A.ak1.prototype={
 $0(){var s=this.a
-if(++s.d<=5)s.P4()
+if(++s.d<=60)s.P4()
 else s.C8()
 s.CW=null
 s.ch=!1},
@@ -80326,7 +80326,7 @@ $S:80}
 A.RC.prototype={}
 A.t5.prototype={
 L(a){var s=null
-return A.hH(A.vQ(!0,B.bE,!0,0,B.k,B.Rl),B.aY,A.ps(!0,A.fJ(new A.bO(B.d1,A.dm(A.b([A.as8(A.ayD(A.br("Pour la r\xe9alisation de ce jeu, 5 photographies de vous, enti\xe8rement v\xeatue, si possible avec des v\xeatements ajust\xe9s, ont \xe9t\xe9 prises par l\u2019exp\xe9rimentatrice (une photographie du corps entier de face, une du corps entier de profil,une photographie de votre visage, une photographie du haut de votre corps et une photographie du bas de votre corps). Ces photographies sont enregistr\xe9es uniquement dans l\u2019application, dans votre t\xe9l\xe9phone portable. Aucune exportation de ces images n\u2019est possible, ni aucune consultation par une autre personne que vous. Ces photographies seront automatiquement effac\xe9es lorsque l\u2019application sera d\xe9sinstall\xe9e le dernier jour de l\u2019exp\xe9rience.\n\nPour toute question,contactez: axelle.nougal.etu@univ-lille.fr",s,s,s,A.d0(s,s,B.k,s,s,s,s,s,s,s,s,16,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),B.ba,s)),1),B.jT],t.p),B.S,B.ab,B.W),s),s,s),!0))}}
+return A.hH(A.vQ(!0,B.bE,!0,0,B.k,B.Rl),B.aY,A.ps(!0,A.fJ(new A.bO(B.d1,A.dm(A.b([A.as8(A.ayD(A.br("Pour la r\xe9alisation de ce jeu, 5 photographies de vous, enti\xe8rement v\xeatue, ont \xe9t\xe9 prises par l\u2019exp\xe9rimentatrice (une photographie du corps entier de face, une du corps entier de profil,une photographie de votre visage, une photographie du haut de votre corps et une photographie du bas de votre corps). Ces photographies sont enregistr\xe9es uniquement dans l\u2019application, dans votre t\xe9l\xe9phone portable. Aucune exportation de ces images n\u2019est possible, ni aucune consultation par une autre personne que vous. Ces photographies seront supprim\xe9es manuellement le dernier jour de l\u2019exp\xe9rience.\n\nPour toute question,contactez: axelle.nougal.etu@univ-lille.fr",s,s,s,A.d0(s,s,B.k,s,s,s,s,s,s,s,s,16,s,s,s,s,1.5,!0,s,s,s,s,s,s,s,s),B.ba,s)),1),B.jT],t.p),B.S,B.ab,B.W),s),s,s),!0))}}
 A.oQ.prototype={
 ag(){return new A.D2(A.b([],t.s))}}
 A.D2.prototype={
