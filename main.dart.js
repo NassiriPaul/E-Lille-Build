@@ -83561,7 +83561,7 @@ case 1:return A.r(p,r)}})
 return A.u($async$wW,r)},
 a6n(){var s,r,q,p,o=this,n=A.b([],t.H7),m=o.e
 B.b.vS(m,o.x)
-for(s=o.d,r=t.N,q=t.z,p=1;p<4;++p)if(o.w==="test")n.push(A.aq(["neutral",m[p],"userBytes",o.f[p]],r,q))
+for(s=o.d,r=t.N,q=t.z,p=0;p<3;++p)if(o.w==="test")n.push(A.aq(["neutral",m[p],"userBytes",o.f[p]],r,q))
 else n.push(A.aq(["neutral",m[p],"userPath",s[p]],r,q))
 o.r=B.b.fL(m,3)
 return n},
@@ -83621,7 +83621,7 @@ A.Pg.prototype={
 M(a){var s=null,r=t.w,q=A.br(a,B.bu,r).w
 r=A.br(a,B.bu,r).w
 q=q.a.a*0.05
-return A.hN(A.vY(!0,B.bM,!0,s,B.k,B.Sv),B.b2,A.dr(A.b([B.f7,new A.bM(new A.ap(q,q,q,q),A.bo("Au d\xe9but de chaque jeu, trois paires d'images vous seront pr\xe9sent\xe9es.\n\nUne de ces paires apparaitra \xe0 chaque manche avec des distracteurs.\n\nLors de chaque manche, votre but est de s\xe9lectionner les deux images qui constituent une paire parmi les distracteurs aussi rapidement que possible ! (plus vous serez rapide, plus vous gagnerez de points) \n\nLe jeu est facile au d\xe9but, mais progressivement il va se compl\xe9xifier :\n\n- Lorsque vous aurez s\xe9lectionn\xe9 la premi\xe8re image, les autres seront noircies.\n\n- Le nombre de distracteur va augmenter.",s,s,s,A.d2(s,s,B.k,s,s,s,s,s,s,s,s,15,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bh,s),s),B.f7,A.j7(s,s,new A.aiY(a),"D\xe9marrer",s),A.d1(s,0.02*r.a.b,s)],t.p),B.T,B.ag,B.X))}}
+return A.hN(A.vY(!0,B.bM,!0,s,B.k,B.Sv),B.b2,A.dr(A.b([B.f7,new A.bM(new A.ap(q,q,q,q),A.bo("Au d\xe9but de chaque jeu, trois paires d'images vous seront pr\xe9sent\xe9es.\n\nUne de ces paires apparaitra \xe0 chaque manche avec des distracteurs.\n\nLors de chaque manche, votre but est de s\xe9lectionner les deux images qui constituent une paire parmi les distracteurs aussi rapidement que possible ! (plus vous serez rapide, plus vous gagnerez de points) \n\nLe jeu est facile au d\xe9but, mais progressivement il va se complexifier :\n\n- Lorsque vous aurez s\xe9lectionn\xe9 la premi\xe8re image, les autres seront noircies.\n\n- Le nombre de distracteur va augmenter.",s,s,s,A.d2(s,s,B.k,s,s,s,s,s,s,s,s,15,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.bh,s),s),B.f7,A.j7(s,s,new A.aiY(a),"D\xe9marrer",s),A.d1(s,0.02*r.a.b,s)],t.p),B.T,B.ag,B.X))}}
 A.aiY.prototype={
 $0(){var s=A.eS(new A.aiX(),null,t.z)
 A.d5(this.a,!1).hw(s)},
